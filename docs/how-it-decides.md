@@ -2,7 +2,7 @@
 
 Relit les notices des musées de France et signale les incohérences documentaires à soumettre à un spécialiste.
 
-Le code normalise la source et applique d’abord le cas déterministe documenté dans `src/index.mjs`. Pour les autres dossiers, Jev choisit la catégorie la plus prudente selon la cohérence interne entre désignation, auteur, époque, matière, technique et description, sans inventer d’attribution. Une confiance inférieure à `0.8` marque le résultat pour revue humaine.
+Le code normalise la source et applique d’abord le cas déterministe documenté dans `src/index.mjs`. Pour les autres dossiers, Jev choisit la catégorie la plus prudente selon la cohérence interne entre désignation, auteur, époque, matière, technique et description, sans inventer d’attribution. Une confiance inférieure à `0.8`, la catégorie `review_required` ou une absence de données choisie par le modèle marque le résultat pour revue humaine. Une collection vide explicitement fournie reste un résultat déterministe sans appel Jev.
 
 Les identifiants, vocabulaires contrôlés et règles de format restent validés par le code.
 
