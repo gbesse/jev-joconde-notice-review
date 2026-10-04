@@ -1,6 +1,6 @@
 {
   "name": "@gbesse/jev-joconde-notice-review",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Relit les notices des musées de France et signale les incohérences documentaires à soumettre à un spécialiste.",
   "type": "module",
   "license": "MIT",
